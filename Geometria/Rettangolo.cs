@@ -19,6 +19,12 @@ namespace Geometria
             this.altezzaRettangolo = altezzaRezzangolo;
         }
 
+        // METODI
+        public int calcolareArea()
+        {
+            int risultato = baseRettangolo * altezzaRettangolo;
+            return risultato;
+        }
 
 
     }
