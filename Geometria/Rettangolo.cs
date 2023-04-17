@@ -8,7 +8,18 @@ namespace Geometria
 {
     public class Rettangolo
     {
+        // ATTRIBUTI
         public int baseRettangolo;
-        public int altezzRettangolo;
+        public int altezzaRettangolo;
+
+        //COSTRUTTORI
+        public Rettangolo(int baseRettangolo, int altezzaRezzangolo)
+        {
+            this.baseRettangolo = baseRettangolo;
+            this.altezzaRettangolo = altezzaRezzangolo;
+        }
+
+
+
     }
 }
