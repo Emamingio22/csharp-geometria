@@ -16,7 +16,7 @@ namespace Geometria
         public Rettangolo(int baseRettangolo, int altezzaRezzangolo)
         {
             this.baseRettangolo = baseRettangolo;
-            this.altezzaRettangolo = altezzaRezzangolo;
+            this.altezzaRettangolo = altezzaRettangolo;
         }
 
         // METODI
@@ -25,6 +25,12 @@ namespace Geometria
             int risultato = baseRettangolo * altezzaRettangolo;
             return risultato;
         }
+         public int calcolarePerimetro()
+        {
+            int risultato = (baseRettangolo + altezzaRettangolo) * 2;
+            return risultato;
+        }
+
 
 
     }
