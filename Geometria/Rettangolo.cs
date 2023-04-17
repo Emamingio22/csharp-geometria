@@ -31,6 +31,15 @@ namespace Geometria
             return risultato;
         }
 
+        public void stampareRettangoloInConsole()
+        {
+            Console.WriteLine("La base del rettangolo è: " + baseRettangolo);
+            Console.WriteLine("L'altezza del rettangolo è: " + altezzaRettangolo);
+            Console.WriteLine("L'area del rettangolo è: " + calcolareArea());
+            Console.WriteLine("Il perimetro del rettangolo è: " + calcolarePerimetro());
+
+        }
+
 
 
     }
