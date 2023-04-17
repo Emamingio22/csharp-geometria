@@ -8,5 +8,7 @@ namespace Geometria
 {
     public class Rettangolo
     {
+        public int baseRettangolo;
+        public int altezzRettangolo;
     }
 }
