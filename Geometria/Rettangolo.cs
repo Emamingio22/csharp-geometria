@@ -15,8 +15,8 @@ namespace Geometria
         //COSTRUTTORI
         public Rettangolo(int baseRettangolo, int altezzaRezzangolo)
         {
-            this.baseRettangolo = baseRettangolo;
-            this.altezzaRettangolo = altezzaRettangolo;
+            this.baseRettangolo += baseRettangolo;
+            this.altezzaRettangolo += altezzaRezzangolo;
         }
 
         // METODI
@@ -33,12 +33,14 @@ namespace Geometria
 
         public void stampareRettangoloInConsole()
         {
-            Console.WriteLine("La base del rettangolo è: " + baseRettangolo);
-            Console.WriteLine("L'altezza del rettangolo è: " + altezzaRettangolo);
-            Console.WriteLine("L'area del rettangolo è: " + calcolareArea());
-            Console.WriteLine("Il perimetro del rettangolo è: " + calcolarePerimetro());
+            Console.WriteLine("La base del rettangolo è: " + baseRettangolo + " cm");
+            Console.WriteLine("L'altezza del rettangolo è: " + altezzaRettangolo + " cm");
+            Console.WriteLine("L'area del rettangolo è: " + calcolareArea() + " cm2");
+            Console.WriteLine("Il perimetro del rettangolo è: " + calcolarePerimetro() + " cm");
 
         }
+
+        
 
 
 
